@@ -1,0 +1,27 @@
+{
+  "name": "faculty-consultation",
+  "version": "1.0.0",
+  "description": "Faculty Consultation System with Tailwind CSS",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/app.css -o ./public/css/tailwind.css --watch",
+    "build": "npx tailwindcss -i ./public/css/app.css -o ./public/css/tailwind.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codeigniter",
+    "tailwind",
+    "php"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.1.12"
+  }
+}
